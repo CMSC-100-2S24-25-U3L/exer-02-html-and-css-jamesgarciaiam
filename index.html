@@ -4,15 +4,15 @@
             <title>My Contact Information</title>
 
             <style>
-                body {
+                body { /*Modifies whole body*/
                     margin: 0;
                     font-family: 'Times New Roman', Times, serif;
                 }
-                .navBar {
+                .navBar { /*Modifies navigation bar*/
                     overflow: hidden;
                     background-color: #4290f5;
                 }
-                .navBar a {
+                .navBar a { /*Modifies clickable buttons*/
                     float: left;
                     color: #f0d20e;
                     text-align: center;
@@ -20,15 +20,15 @@
                     text-decoration: none;
                     font-size: 17px;
                 }
-                .navBar a:hover {
+                .navBar a:hover { /*Modifies button when cursor is hovering above it*/
                     background-color: #ddd;
                     color: black;
                 }
-                .navBar a.active {
+                .navBar a.active { /*Modifies the active button*/
                     background-color: #04AA6D;
                     color: white;
                 }
-                .photo {
+                .photo { /*Modifies featured photo*/
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 10px;
@@ -37,28 +37,28 @@
                     width: 200px;
                     height: 300px;  
                 }
-                .prev_proj {
+                .prev_proj { /*Modifies div of previous projects*/
                     text-align: center;
                 }
-                .footer{
+                .footer{ /*Modifies the footer*/
                     overflow: hidden;
                     background-color: #4290f5;
                     bottom: 0;
                     left: 0;
                     z-index: 10;
                 }
-                .skill_auto{
+                .skill_auto{ /*Modifies div containing skills and autobiography*/
                     border: 1px olid black;
                     margin: 1rem;
                     padding: 2rem 2rem;
                     text-align: center;
                 }
-                .skills{
+                .skills{ /*Modifies div of skills*/
                     display: inline-block;
                     padding: 1rem 1rem;
                     vertical-align: middle;
                 }
-                .autobio{
+                .autobio{ /*Modifies div of autobiography*/
                     display: inline-block;
                     padding: 1rem 1rem;
                     vertical-align: middle;
@@ -69,31 +69,31 @@
 
         <body> <!--The body contains the elements for the visible contents of the page-->
             
-            <div class = "navBar">
+            <div class = "navBar"> <!--Contains the navigation bar including the "logo" of the company, home, contact, faqs clickable parts.-->
                 <a class="navBar-brand" href="#logo">GHT Special Operations Group</a>
                 <a href="#home">HOME</a>
                 <a class="active" href="#contact">CONTACT</a>
                 <a href="#faqs">FAQS</a>
             </div>
 
-            <img src="Featured Photo.jpg" class="photo">
+            <img src="Featured Photo.jpg" class="photo"> <!--Added a Featured Photo-->
 
-            <div class="prev_proj">
+            <div class="prev_proj"> <!--Contains the past projects I have finished/collaborated on.-->
                 <p>Designed a Discord bot that enhances user engagement on several servers.</p>
                 <p>Collaborated in the creation of a tycoon game, focusing on game design and mechanics.</p>
             </div>
             <div class="skill_auto">
-                <div class="skills">
+                <div class="skills"> <!--Contains the skills.-->
                     <p>Fluent in Python, C, and JavaScript, with experience in the development of Discord bots.</p>
                     <p>Able to work efficiently in a collaborative manner, contributing to the success of multiple projects.</p>
                     <p>Showed strong leadership skills by coordinating a team of 5 members, ensuring the completion of the project.</p>
                 </div>
-                <div class="autobio">
+                <div class="autobio"> <!--Contains the autobiography.-->
                     <p>My name is James Anthony Garcia. I was born on January 12, 2005 in Manila, Philippines. I am a 2nd Year student pursuing BS Computer Science in University of the Philippines Los Banos. </p>
                 </div>
             </div>
             </body>
-            <div class="footer">
+            <div class="footer"> <!--The footer contains the address of the company, contact number, personal website, and copyright information.-->
                 <p>Address: One GHT, Neo Avenue, Sector 5, I/O City</p>
                 <a href="tel: 0912-435-6248">Contact Me Here! (not my real number)</a>
                 <a href="https://www.facebook.com/heyitsjamesgarcia/">My Personal Website!</a>
