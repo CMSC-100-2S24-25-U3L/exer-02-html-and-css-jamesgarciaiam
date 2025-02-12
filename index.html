@@ -1,14 +1,49 @@
 <!DOCTYPE html> <!--“tells” the browser that the page is going to use HTML 5-->
     <html> <!--The <html> is the root element of an HTML page-->
         <head> <!--The head contains the meta information about the page-->
-            <style> title {text-align: center;} </style>
             <title>My Contact Information</title>
+
+            <style>
+                body {
+                    margin: 0;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+
+                .navBar {
+                    overflow: hidden;
+                    background-color: #4290f5
+                }
+
+                .navBar a {
+                    float: left;
+                    color: #42f55d;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 17px;
+                }
+
+                .navBar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .navBar a.active {
+                    background-color: #04AA6D;
+                    color: white;
+                }
+            </style>
         </head>
 
         <body> <!--The body contains the elements for the visible contents of the page-->
-            <h1>This is a heading</h1> <!--The h1 and p tags are just examples of tags that we can use-->
-            <p>This is the first paragraph of text</p>
+            
+            <div class = "navBar">
+                <a href="#home">HOME</a>
+                <a class="active" href="#home">CONTACT</a>
+                <a href="#home">FAQS</a>
+            </div>
             <hr /> <!--The hr is a horizontal rule, typically represented as a straight line-->
+            <p>This is the first paragraph of text</p>
             <p>This is the second paragraph of text</p>
         </body>
     </html>
